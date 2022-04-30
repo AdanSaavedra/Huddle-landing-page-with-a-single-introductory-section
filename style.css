@@ -1,6 +1,7 @@
 :root{
     --Violet: hsl(257, 40%, 49%);
     --Soft-Magenta: hsl(300, 69%, 71%);
+    --white: #ffffff;
 }
 body{
     margin: 0;
@@ -9,7 +10,7 @@ body{
     background-image: url("./images/bg-desktop.svg");
     background-color: var(--Violet);
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: var(--white);
 }
 header{
     padding: 60px 20px 0 68px;
@@ -37,7 +38,7 @@ main{
 .reg-button:hover{
     cursor: pointer;
     background-color: var(--Soft-Magenta);
-    color: white;
+    color: var(--white);
 }
 @media(max-width: 375px){
     body{
